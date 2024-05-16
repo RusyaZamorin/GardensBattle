@@ -39,7 +39,7 @@ namespace GardensBattle.Runtime.Gameplay.GardenStructure
             
             var itemShape = shapesData.GetShape(itemName);
             
-            foreach (var cellPosition in itemShape.Points.Select(itemShapePoint => position + itemShapePoint))
+            foreach (var cellPosition in itemShape.GetPoints().Select(itemShapePoint => position + itemShapePoint))
                 cells[cellPosition.X, cellPosition.Y].PlacedItem = placedItem;
         }
 
@@ -47,7 +47,7 @@ namespace GardensBattle.Runtime.Gameplay.GardenStructure
         {
             Items.Remove(placedItem);
             var itemShape = shapesData.GetShape(placedItem.ItemName);
-            foreach (var itemShapePoint in itemShape.Points)
+            foreach (var itemShapePoint in itemShape.GetPoints())
             {
                 var itemPoint = itemShapePoint + placedItem.Position;
                 cells[itemPoint.X, itemPoint.Y].ClearItem();

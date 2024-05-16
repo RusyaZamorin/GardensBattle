@@ -16,5 +16,8 @@ namespace GardensBattle.Runtime.Gameplay
         
         public static Point2D operator+ (Point2D point1, Point2D point2) => 
             new(point1.X + point2.X, point1.Y + point2.Y);
+        
+        public static Point2D operator- (Point2D point1, Point2D point2) => 
+            new(point1.X - point2.X, point1.Y - point2.Y);
     }
 }

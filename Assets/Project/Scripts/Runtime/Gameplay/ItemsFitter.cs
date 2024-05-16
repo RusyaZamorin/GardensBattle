@@ -24,7 +24,7 @@ namespace GardensBattle.Runtime.Gameplay
         public bool TryFitItem(ItemName item, Point2D position)
         {
             var itemShape = shapesData.GetShape(item);
-            foreach (var itemShapePoint in itemShape.Points)
+            foreach (var itemShapePoint in itemShape.GetPoints())
             {
                 var cellPosition = itemShapePoint + position;
                 if (garden.CellContainsItem(cellPosition))
