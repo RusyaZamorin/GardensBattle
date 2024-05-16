@@ -4,9 +4,9 @@ using GardensBattle.Runtime.Gameplay.Enums;
 namespace GardensBattle.Runtime.Gameplay.GardenBeds
 {
     [Serializable]
-    public class GardenBed
+    public class PlacedGardenBed
     {
         public GardenBedName Name;
-        public ShapeName Shape;
+        public Point2D Position;
     }
 }

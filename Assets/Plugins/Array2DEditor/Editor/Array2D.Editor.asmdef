@@ -1,7 +1,8 @@
 {
-    "name": "GardensBattle.Editor",
-    "rootNamespace": "GardensBattle.Editor",
-    "references": ["GUID:78d201040a171674d8e4d7cbbea44b32"
+    "name": "Array2D.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e14decec1a60bc4c812ee2db12214de"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -5,40 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0949f0f6-f716-4ff3-b80c-a21ff9beac08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Cell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Cell.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/GardenBedName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/GardenBedName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ItemName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ItemName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ShapeName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ShapeName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GameplayConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GameplayConstants.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Garden.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Garden.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/GardenBed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/GardenBed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items/Item.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/PlacedItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/PlacedItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapePoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapePoint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Cell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/GardenData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/GardenData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GardensBattle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GardensBattle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Data/ShapesData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Data/ShapesData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Editor/GardensBattle.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Editor/GardensBattle.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Cell.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Cell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Cell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Garden.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Garden.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/GardenBed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/PlacedGardenBed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/GardenBed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/PlacedGardenBed.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/PlacedItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items/Item.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/PlacedItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/PlacedItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/PlacedItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Point2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapePoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeMatrix.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gPKLDsDJUQKWVVURDIwMzvO6XB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,26 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/Setup",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/GardenStructure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Админ\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Админ\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\Админ\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Админ\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Админ\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Админ\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\2022.3.10f1\Editor\Unity.exe" />
@@ -131,6 +133,9 @@
       <option name="presentableId" value="Default" />
       <updated>1715593715259</updated>
       <workItem from="1715593718034" duration="4339000" />
+      <workItem from="1715768762741" duration="5977000" />
+      <workItem from="1715779010713" duration="558000" />
+      <workItem from="1715857435877" duration="2119000" />
     </task>
     <servers />
   </component>
