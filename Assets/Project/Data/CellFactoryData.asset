@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5cea423425d4e44932d48e8c5353035, type: 3}
-  m_Name: ProjectInstaller
+  m_Script: {fileID: 11500000, guid: 1dc207296492424a82979ad288ff6b52, type: 3}
+  m_Name: CellFactoryData
   m_EditorClassIdentifier: 
-  shapesData: {fileID: 11400000, guid: 76ea461297173bc4fba9cd198d0aca56, type: 2}
-  cellFactoryData: {fileID: 11400000, guid: 8b7e41bf7b9693941968e0d7d8078582, type: 2}
+  cellPrefab: {fileID: 4562764152427816844, guid: b27396cadc2d76540a1caf9da65a2856, type: 3}

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using GardensBattle.Runtime.Gameplay.GardenBeds;
+using GardensBattle.Runtime.Gameplay.Model.GardenBeds;
 
-namespace GardensBattle.Runtime.Gameplay.GardenStructure
+namespace GardensBattle.Runtime.Gameplay.Model.GardenStructure
 {
     [Serializable]
     public class GardenData

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Array2DEditor;
+using GardensBattle.Runtime.Gameplay.Model.Enums;
 using UnityEngine;
 
-namespace GardensBattle.Runtime.Gameplay.Shapes
+namespace GardensBattle.Runtime.Gameplay.Model.Shapes
 {
     [Serializable]
     public class Shape
@@ -11,10 +12,10 @@ namespace GardensBattle.Runtime.Gameplay.Shapes
         [SerializeField] private Array2DBool shape;
         private bool[,] matrix;
         
-        public List<Point2D> GetPoints(ShapeRotation rotation = ShapeRotation.Degree0)
+        public List<Point2D> GetPoints(RotationAngle rotationAngle = RotationAngle.Degree0)
         {
             matrix = shape.GetCells();
-            Rotate(rotation);
+            Rotate(rotationAngle);
             
             var points = new List<Point2D>();
             var size = shape.GridSize;
@@ -29,14 +30,14 @@ namespace GardensBattle.Runtime.Gameplay.Shapes
         }
 
 
-        private void Rotate(ShapeRotation rotation)
+        private void Rotate(RotationAngle rotationAngle)
         {
-            var countOfRotate  = rotation switch
+            var countOfRotate  = rotationAngle switch
             {
-                ShapeRotation.Degree0 => 0,
-                ShapeRotation.Degree90 => 1,
-                ShapeRotation.Degree180 => 2,
-                ShapeRotation.Degree270 => 3,
+                RotationAngle.Degree0 => 0,
+                RotationAngle.Degree90 => 1,
+                RotationAngle.Degree180 => 2,
+                RotationAngle.Degree270 => 3,
             };
 
             for (var i = 0; i < countOfRotate; i++) 

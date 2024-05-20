@@ -1,4 +1,4 @@
-﻿namespace GardensBattle.Runtime.Gameplay
+﻿namespace GardensBattle.Runtime.Gameplay.Model
 {
     public static class GameplayConstants
     {

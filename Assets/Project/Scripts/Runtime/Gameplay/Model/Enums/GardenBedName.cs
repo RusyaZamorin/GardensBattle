@@ -1,4 +1,4 @@
-﻿namespace GardensBattle.Runtime.Gameplay.Enums
+﻿namespace GardensBattle.Runtime.Gameplay.Model.Enums
 {
     public enum GardenBedName
     {

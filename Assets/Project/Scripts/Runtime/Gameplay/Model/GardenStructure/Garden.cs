@@ -1,33 +1,42 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using GardensBattle.Runtime.Gameplay.Enums;
-using GardensBattle.Runtime.Gameplay.GardenBeds;
-using GardensBattle.Runtime.Gameplay.Shapes;
+using GardensBattle.Runtime.Gameplay.Model.Enums;
+using GardensBattle.Runtime.Gameplay.Model.GardenBeds;
+using GardensBattle.Runtime.Gameplay.Model.Shapes;
 using Zenject;
 
-namespace GardensBattle.Runtime.Gameplay.GardenStructure
+namespace GardensBattle.Runtime.Gameplay.Model.GardenStructure
 {
-    public class Garden
+    public class Garden : IInitializable
     {
-        private Cell[,] cells = new Cell[GameplayConstants.GardenLinesCount, GameplayConstants.GardenColumnsCount];
+        private Cell[,] cells;
         private ShapesData shapesData;
 
         public List<PlacedGardenBed> GardenBeds { get; private set; } = new();
-        public List<PlacedItem> Items { get; private set; } = new();
+        public List<PlacedItem> Items { get; } = new();
 
         public Cell[,] Cells => cells;
-        
+
         [Inject]
         public Garden(ShapesData shapesData)
         {
             this.shapesData = shapesData;
         }
 
-        public bool CellContainsGardenBed(Point2D position) => 
-            cells[position.X, position.Y].ContainsGardenBed;
+        public void Initialize()
+        {
+            cells = new Cell[GameplayConstants.GardenLinesCount, GameplayConstants.GardenColumnsCount];
+            
+            for (var i = 0; i < GameplayConstants.GardenLinesCount; i++)
+            for (var j = 0; j < GameplayConstants.GardenColumnsCount; j++)
+                cells[i, j] = new Cell(new Point2D(j, i));
+        }
 
         public bool CellContainsItem(Point2D position) =>
             cells[position.X, position.Y].ContainsItem;
+
+        public bool CellContainsGardenBed(Point2D position) => 
+            cells[position.X, position.Y].ContainsGardenBed;
 
         internal void AddItem(ItemName itemName, Point2D position)
         {
@@ -55,6 +64,6 @@ namespace GardensBattle.Runtime.Gameplay.GardenStructure
         }
 
         private static bool InCellMatrixRange(Point2D position) =>
-            position.X >= GameplayConstants.GardenLinesCount || position.Y >= GameplayConstants.GardenColumnsCount;
+            position.X <= GameplayConstants.GardenLinesCount || position.Y <= GameplayConstants.GardenColumnsCount;
     }
 }

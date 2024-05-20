@@ -25,6 +25,61 @@ MonoBehaviour:
           - row: 0000010000
           - row: 0000000000
           - row: 0000000000
+    - Key: 1
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000000000
+          - row: 0000010100
+          - row: 0000010100
+          - row: 0000000000
+          - row: 0000000000
+    - Key: 2
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000000000
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000000000
+          - row: 0000000000
+    - Key: 3
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000000000
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000000000
+    - Key: 4
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000000000
+    - Key: 5
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000000000
+          - row: 0000010000
+          - row: 0000010100
+          - row: 0000000000
+          - row: 0000000000
     - Key: 6
       Value:
         shape:
@@ -36,7 +91,20 @@ MonoBehaviour:
           - row: 0000010100
           - row: 0000000000
           - row: 0000000000
+    - Key: 7
+      Value:
+        shape:
+          gridSize: {x: 5, y: 5}
+          cellSize: {x: 16, y: 16}
+          cells:
+          - row: 0000010000
+          - row: 0000010000
+          - row: 0000010101
+          - row: 0000000000
+          - row: 0000000000
   itemShapes:
-    _serializedList: []
+    _serializedList:
+    - Key: 0
+      Value: 2
   gardenBedShapes:
     _serializedList: []

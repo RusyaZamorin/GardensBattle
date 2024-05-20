@@ -1,7 +1,7 @@
 ﻿using System;
-using GardensBattle.Runtime.Gameplay.Enums;
+using GardensBattle.Runtime.Gameplay.Model.Enums;
 
-namespace GardensBattle.Runtime.Gameplay.GardenBeds
+namespace GardensBattle.Runtime.Gameplay.Model.GardenBeds
 {
     [Serializable]
     public class PlacedGardenBed

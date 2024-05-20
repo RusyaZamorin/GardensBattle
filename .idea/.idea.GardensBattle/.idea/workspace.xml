@@ -5,23 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0949f0f6-f716-4ff3-b80c-a21ff9beac08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/EmptyInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/EmptyInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeRotation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeRotation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/ProjectInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/ProjectInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/ShapesPrinter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/ShapesPrinter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Extensions/Unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Extensions/Unity/Vector3Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Extensions/Unity/Vector3Extensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/ItemName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellCreating.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellCreating/CellFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellCreating/CellFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellCreating/CellFactoryData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellCreating/CellFactoryData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/CellPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/GardenPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/GardenPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/ShopItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Presenters/ShopItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Scenes/BattleSceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Scenes/BattleSceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Services/DragAndDropService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Services/DragAndDropService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/FitItemDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/FitItemDebug.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GardensBattle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GardensBattle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Data/DI/ProjectContext.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Data/DI/ProjectContext.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Data/DI/ProjectInstaller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Data/DI/ProjectInstaller.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Data/ShapesData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Data/ShapesData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/Square.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Point2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Point2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/GardenBedName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/GardenBedName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/GardenBedName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/GardenBedName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ItemName.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ItemName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/ItemName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ShapeName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/ShapeName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Enums/ShapeName.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/ShapeName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GameplayConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GameplayConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GameplayConstants.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GameplayConstants.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenBeds.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/PlacedGardenBed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenBeds/PlacedGardenBed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenBeds/PlacedGardenBed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenBeds/PlacedGardenBed.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Cell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Cell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/Garden.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/GardenData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/GardenData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/GardenData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/GardenData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/PlacedItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/PlacedItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/GardenStructure/PlacedItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/PlacedItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Items.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Items.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/ItemsFitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/ItemsFitter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/ItemsFitter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Point2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Point2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Point2D.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Point2D.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/Shape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/Shape.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/RotationAngle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeRotation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Enums/RotationAngle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/ShapesData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/ShapesData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/ProjectInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/ProjectInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/ShapesPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/ShapesPrinter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +80,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapeMatrix.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/8a/246d5c89/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/787acc3c9a4c471ba7d971300105af2446ac00/82/7c108c8a/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/821134a1c0a84edf890c4251460c239920a00/cb/6b1aa56c/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/Shape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/Shapes/ShapesData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/GardensBattle.asmdef" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,7 +110,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.7415946",
+    "XThreadsFramesViewSplitterKey": "1.0989434",
     "git-widget-placeholder": "feature/GardenStructure",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -101,10 +153,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19008">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6324">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19008" />
+      <option name="pid" value="6324" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -124,7 +176,8 @@
       <workItem from="1715768762741" duration="5977000" />
       <workItem from="1715779010713" duration="558000" />
       <workItem from="1715857435877" duration="2314000" />
-      <workItem from="1715866067249" duration="5359000" />
+      <workItem from="1715866067249" duration="7334000" />
+      <workItem from="1716208539479" duration="7500000" />
     </task>
     <servers />
   </component>
@@ -140,69 +193,134 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/ShapesPrinter.cs</url>
-          <line>29</line>
-          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Tests\ShapesPrinter.cs" initialLine="27" containingFunctionPresentation="Method 'CreateShape'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/FitItemDebug.cs</url>
+          <line>46</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Tests\FitItemDebug.cs" initialLine="43" containingFunctionPresentation="Method 'FitItem'">
             <startOffsets>
-              <option value="864" />
+              <option value="1346" />
             </startOffsets>
             <endOffsets>
-              <option value="922" />
+              <option value="1389" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/ShapesData.cs</url>
-          <line>35</line>
-          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Shapes\ShapesData.cs" initialLine="35" containingFunctionPresentation="Method 'GetShape'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Tests/FitItemDebug.cs</url>
+          <line>60</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Tests\FitItemDebug.cs" initialLine="61" containingFunctionPresentation="Method 'FitItem'">
             <startOffsets>
-              <option value="1329" />
+              <option value="1793" />
             </startOffsets>
             <endOffsets>
-              <option value="1342" />
+              <option value="2007" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs</url>
-          <line>27</line>
-          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Shapes\Shape.cs" initialLine="33" containingFunctionPresentation="Method 'GetPoints'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/ItemsFitter.cs</url>
+          <line>42</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\ItemsFitter.cs" initialLine="42" containingFunctionPresentation="Method 'TryFitItem'">
             <startOffsets>
-              <option value="826" />
+              <option value="1327" />
             </startOffsets>
             <endOffsets>
-              <option value="840" />
+              <option value="1328" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs</url>
-          <line>20</line>
-          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Shapes\Shape.cs" initialLine="30" containingFunctionPresentation="Method 'GetPoints'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/ItemsFitter.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\ItemsFitter.cs" initialLine="34" containingFunctionPresentation="Method 'TryFitItem'">
             <startOffsets>
-              <option value="556" />
+              <option value="1088" />
             </startOffsets>
             <endOffsets>
-              <option value="607" />
+              <option value="1124" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Shapes/Shape.cs</url>
-          <line>16</line>
-          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Shapes\Shape.cs" initialLine="16" containingFunctionPresentation="Method 'GetPoints'">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>42</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="42" containingFunctionPresentation="Method 'AddItem'">
             <startOffsets>
-              <option value="428" />
+              <option value="1417" />
             </startOffsets>
             <endOffsets>
-              <option value="445" />
+              <option value="1450" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="43" containingFunctionPresentation="Method 'AddItem'">
+            <startOffsets>
+              <option value="1467" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1474" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>45</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="45" containingFunctionPresentation="Method 'AddItem'">
+            <startOffsets>
+              <option value="1488" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1540" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>46</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="46" containingFunctionPresentation="Method 'AddItem'">
+            <startOffsets>
+              <option value="1553" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1575" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>48</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="48" containingFunctionPresentation="Method 'AddItem'">
+            <startOffsets>
+              <option value="1601" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1647" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Runtime/Gameplay/Model/GardenStructure/Garden.cs</url>
+          <line>52</line>
+          <properties documentPath="D:\Work\GardensBattle\Assets\Project\Scripts\Runtime\Gameplay\Model\GardenStructure\Garden.cs" initialLine="52" containingFunctionPresentation="Method 'AddItem'">
+            <startOffsets>
+              <option value="1864" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1865" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

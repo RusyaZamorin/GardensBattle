@@ -1,10 +1,10 @@
 ﻿using System;
-using GardensBattle.Runtime.Gameplay.Enums;
-using GardensBattle.Runtime.Gameplay.GardenStructure;
-using GardensBattle.Runtime.Gameplay.Shapes;
+using GardensBattle.Runtime.Gameplay.Model.Enums;
+using GardensBattle.Runtime.Gameplay.Model.GardenStructure;
+using GardensBattle.Runtime.Gameplay.Model.Shapes;
 using Zenject;
 
-namespace GardensBattle.Runtime.Gameplay
+namespace GardensBattle.Runtime.Gameplay.Model
 {
     public class ItemsFitter
     {
@@ -21,10 +21,13 @@ namespace GardensBattle.Runtime.Gameplay
             this.garden = garden;
         }
 
-        public bool TryFitItem(ItemName item, Point2D position)
+        public bool TryFitItem(ItemName item, Point2D position, RotationAngle angle)
         {
-            var itemShape = shapesData.GetShape(item);
-            foreach (var itemShapePoint in itemShape.GetPoints())
+            var shapePoints = shapesData
+                .GetShape(item)
+                .GetPoints(angle);
+            
+            foreach (var itemShapePoint in shapePoints)
             {
                 var cellPosition = itemShapePoint + position;
                 if (garden.CellContainsItem(cellPosition))

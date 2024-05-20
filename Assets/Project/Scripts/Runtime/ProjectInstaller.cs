@@ -1,4 +1,8 @@
-﻿using GardensBattle.Runtime.Gameplay.Shapes;
+﻿using GardensBattle.Runtime.Gameplay.Model;
+using GardensBattle.Runtime.Gameplay.Model.GardenStructure;
+using GardensBattle.Runtime.Gameplay.Model.Shapes;
+using GardensBattle.Runtime.Gameplay.Presenters.CellCreating;
+using GardensBattle.Runtime.Services;
 using UnityEngine;
 using Zenject;
 
@@ -10,10 +14,18 @@ namespace GardensBattle.Runtime
     public class ProjectInstaller : ScriptableObjectInstaller
     {
         [SerializeField] private ShapesData shapesData;
-
+        [SerializeField] private CellFactoryData cellFactoryData;
+        
         public override void InstallBindings()
         {
             Container.BindInstance(shapesData).AsSingle();
+            Container.BindInstance(cellFactoryData).AsSingle();
+
+            Container.BindInterfacesAndSelfTo<Garden>().AsSingle();
+            Container.Bind<CellFactory>().AsSingle();
+            Container.Bind<ItemsFitter>().AsSingle();
+            
+            Container.BindInterfacesAndSelfTo<DragAndDropService>().AsSingle();
         }
     }
 }

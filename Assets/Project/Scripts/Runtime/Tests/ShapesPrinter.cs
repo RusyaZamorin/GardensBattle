@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
-using GardensBattle.Runtime.Gameplay.Enums;
-using GardensBattle.Runtime.Gameplay.Shapes;
+using GardensBattle.Runtime.Gameplay.Model.Enums;
+using GardensBattle.Runtime.Gameplay.Model.Shapes;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Zenject;
 
 namespace GardensBattle.Runtime.Tests
@@ -10,7 +11,7 @@ namespace GardensBattle.Runtime.Tests
     {
         [SerializeField] private GameObject squarePrefab;
         [SerializeField] private ShapeName shapeType;
-        [SerializeField] private ShapeRotation shapeRotation;
+        [FormerlySerializedAs("shapeRotation")] [SerializeField] private RotationAngle RotationAngle;
         
         private ShapesData shapesData;
         private List<GameObject> shapeParts = new();
@@ -27,7 +28,7 @@ namespace GardensBattle.Runtime.Tests
             DeleteShape();
             
             var shape = shapesData.GetShape(shapeType);
-            foreach (var shapePoint in shape.GetPoints(shapeRotation))
+            foreach (var shapePoint in shape.GetPoints(RotationAngle))
             {
                 var instantiate = Instantiate(squarePrefab, new Vector3(shapePoint.X, shapePoint.Y, 0f), Quaternion.identity);
                 shapeParts.Add(instantiate);

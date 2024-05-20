@@ -1,6 +1,6 @@
-﻿namespace GardensBattle.Runtime.Gameplay.Shapes
+﻿namespace GardensBattle.Runtime.Gameplay.Model.Enums
 {
-    public enum ShapeRotation
+    public enum RotationAngle
     {
         Degree0,
         Degree90,
